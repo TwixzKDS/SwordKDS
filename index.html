@@ -1,147 +1,171 @@
-<!DOCTYPE html>
-<html>
+<title>King Legacy Sword Tier List – TwixzKDS </title>
+
 <head>
-<style>
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('GustXs.png');
-  background-position: center; /* Mova a imagem para a esquerda */
-  transition: background-image 1s ease-in-out;
-}
-
-
-  /* Estilos para o painel */
-  .panel {
-    width: 300px;
-    background-color: rgba(241, 241, 241, 0.9);
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  }
-
-  /* Estilos para os botões */
-  .button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 7px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-
-  .button:hover {
-    background-color: #0056b3; /* Cor de destaque ao passar o mouse */
-  }
-
-  /* Estilos para a barra de carregamento */
-  .progress-container {
-    width: 100%;
-    height: 30px;
-    background-color: #e0e0e0;
-    position: relative;
-    margin-top: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-
-  .progress-bar {
-    width: 0;
-    height: 100%;
-    background-color: #4caf50;
-    border-radius: 5px;
-    transition: width 1s ease-in-out;
-  }
-
-  /* Estilos para o título */
-  h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-  }
-
-  /* Estilos para a transição de fundo */
-  @keyframes backgroundTransition {
-    0% {
-      background-image: url('GustXs.png');
-    }
-    100% {
-      background-image: url('KingLegacy.png'); /* Adicione outras imagens de transição aqui */
-    }
-    100% {
-      background-image: url('GustXs.png');
-    }
-    100% {
-      background-image: url('KingLegacy.png');
-    }
-    100% {
-      background-image: url('GustXs.png');
-    }
-  }
-</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
-<body>
 
-<div class="panel">
-  <h1>Selecione uma categoria:</h1>
-  <button class="button" onclick="showAdvancedPanel('Stilo de lutas', 'URL_DO_STILO_DE_LUTAS')">Stilo de lutas</button>
-  <button class="button" onclick="showAdvancedPanel('Codigos', 'https://it.pornhub.com/')">Codigos</button>
-  <button class="button" onclick="showAdvancedPanel('Drops', 'URL_DOS_DROPS')">Drops</button>
-  <button class="button" onclick="showAdvancedPanel('Itens', 'https://static.wikia.nocookie.net/king-piece/images/9/9a/Second_Sea.png/revision/latest/scale-to-width-down/340?cb=20230815111959')">Second sea</button>
-  <button class="button" onclick="showAdvancedPanel('Itens', 'https://static.wikia.nocookie.net/king-piece/images/0/00/Sea_1_map.png/revision/latest/scale-to-width-down/340?cb=20230815110858')">First sea</button>
-  <button class="button" onclick="showAdvancedPanel('Espadas', '')">Espadas</button>
-  <button class="button" onclick="showAdvancedPanel('Haki', 'https://animesgames.cc/')">Haki</button>
-  <div class="progress-container">
-    <div class="progress-bar" id="progressBar"></div>
-  </div>
-</div>
-
-<script>
-// Pré-carregar a imagem de fundo
-const backgroundImage = new Image();
-backgroundImage.src = 'GustXs.png';
-
-backgroundImage.onload = function() {
-  document.body.style.backgroundImage = `url('${backgroundImage.src}')`;
-};
-
-function showAdvancedPanel(category, redirectUrl) {
-  let progressBar = document.getElementById('progressBar');
-  progressBar.style.width = '100%';
-
-  let widthIncrement = 100;
-  let totalTime = 9; // 9 segundos
-  let intervalTime = totalTime * 10; // Divide por 10 para melhorar a animação
-
-  let width = 0;
-  let interval = setInterval(function() {
-    width += widthIncrement;
-    progressBar.style.width = width + '%';
-    if (width >= 1000) {
-      clearInterval(interval);
-      window.location.href = redirectUrl;
-    }
-  }, intervalTime);
+<style>
+    body {
+  background-color: #000000; /* Define o fundo como preto */
+  color: #000000; /* Define a cor do texto como branco */
 }
 
-// Adicionar animação de transição de fundo
-document.body.addEventListener('animationiteration', function() {
-  document.body.style.animation = 'none';
-  setTimeout(function() {
-    document.body.style.animation = 'backgroundTransition 20s infinite';
-  }, 0);
-});
-</script>
+</style>
 
-</body>
-</html>
+<link rel='preload' href='https://gamerempire.net/wp-content/themes/oceanwp/assets/css/style.min.css?ver=3.4.3' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media='all' />
+<link data-minify="1" rel='preload' href='https://gamerempire.net/wp-content/cache/min/1/wp-content/tablepress-combined.min.css?ver=1691852771' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media='all' />
+<div id="site-navigation-wrap" class="clr">
+<ul id="menu-primary" class="main-menu dropdown-menu sf-menu"><li id="menu-item-10699" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10699"><a href="https://discord.gg/939pzEES" class="menu-link"><span class="text-wrap">Discord</span></a></li><li id="menu-item-12888" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12888"><a href="https://chat.whatsapp.com/BL9uuDLo8Fy9ZsBxC80TvR" class="menu-link"><span class="text-wrap">Grupo principal</span></a></li><li id="menu-item-41855" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41855"><a href="https://instagram.com/twixzkds?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="menu-link"><span class="text-wrap">Ig criador</span></a></li><li id="menu-item-13227" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-13227"><a href="https://www.roblox.com/home" class="menu-link"><span class="text-wrap">Home Roblox</span></a></li><li id="menu-item-8250" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8250"><a href="https://beacons.ai/huntersoftheseas" class="menu-link"><span class="text-wrap">Page geral</span></a></li><li id="menu-item-5729" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5729"><a href="https://twixzkds.github.io/KingLegacyKDS/" class="menu-link"><span class="text-wrap">Voltar para o início</span></a></li><li id="menu-item-29367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-29367"><a href="https://www.roblox.com/users/2771681438/profile" class="menu-link"><span class="text-wrap">Perfil roblox<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+
+</li><li class="search-toggle-li"><a href="https://gamerempire.net/#" class="site-search-toggle search-dropdown-toggle"><span class="screen-reader-text">Toggle website search</span><i class=" fas fa-search" aria-hidden="true" role="img"></i></a></li></ul>
+
+<div id="searchform-dropdown" class="header-searchform-wrap clr">
+    
+<form aria-label="Search this website" role="search" method="get" class="searchform" action="https://gamerempire.net/">
+<input aria-label="Insert search query" type="search" id="ocean-search-form-1" class="field" autocomplete="off" placeholder="Search" name="s">
+
+</form>
+</div>
+</nav>
+</div>
+<li class="search-toggle-li"><a href="https://gamerempire.net/#" class="site-search-toggle search-dropdown-toggle"><span class="screen-reader-text">Toggle website search</span><i class=" fas fa-search" aria-hidden="true" role="img">
+</i></a></li></ul>
+<i class=" fas fa-search" aria-hidden="true" role="img"></i> </button>
+</form>
+</div>
+</nav>
+</div>
+</header>
+<main id="main" class="site-main clr" role="main">
+<div id="content-wrap" class="container clr">
+<div id="primary" class="content-area clr">
+<div id="content" class="site-content clr">
+<article id="post-30805">
+<header class="entry-header clr">
+<h1 class="single-post-title entry-title" itemprop="headline">King Legacy Sword Tier List – By TwixzKDS</h1>
+<p>Todas as espadas em King Legacy têm seu ataque básico regular que você usa clicando com o botão esquerdo, mas também oferecem duas habilidades de espada em Z e X.</p>
+<p>As habilidades que você desbloqueia ao usar uma espada específica podem ser muito poderosas e importantes para a força do seu personagem.</p>
+<p>Para ajudá-lo a ter uma visão geral de quais espadas são melhores para usar no King Legacy, verifique a lista de níveis a seguir, que classifica todas as espadas no King Legacy com base em quão poderosas elas são.</p>
+<div id="tablepress-297-scroll-wrapper" class="tablepress-scroll-wrapper">
+<table id="tablepress-297" class="tablepress tablepress-id-297 tablepress-responsive">
+<thead>
+<tr class="row-1 odd">
+<th class="column-1">Sword</th><th class="column-2">Tier</th><th class="column-3">Type</th><th class="column-4">Obtained from</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+<td class="column-1">Muramasa</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss King Samurai, Floresco Town</td>
+</tr>
+<tr class="row-3 odd">
+<td class="column-1">Daybreak Cleaver</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Hydra, Second Sea</td>
+</tr>
+<tr class="row-4 even">
+<td class="column-1">Dark Blade</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Gamepass</td><td class="column-4">Purchase gamepass</td>
+</tr>
+<tr class="row-5 odd">
+<td class="column-1">Hydra Anchor</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Hydra, Second Sea</td>
+</tr>
+<tr class="row-6 even">
+<td class="column-1">Apollos Sword</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Princess Aria, Second Sea</td>
+</tr>
+<tr class="row-7 odd">
+<td class="column-1">Hydra Staff</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Hydra, Second Sea</td>
+</tr>
+<tr class="row-8 even">
+<td class="column-1">Soul Cane</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Sally, Second Sea</td>
+</tr>
+<tr class="row-9 odd">
+<td class="column-1">Pondere Blade</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Pondere, Second Sea</td>
+</tr>
+<tr class="row-10 even">
+<td class="column-1">Kioru</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Second Sea</td><td class="column-4">Objective</td>
+</tr>
+<tr class="row-11 odd">
+<td class="column-1">Aeroscythe</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Sea King, Legacy Island + Chests</td>
+</tr>
+<tr class="row-12 even">
+<td class="column-1">Phoenix Blade</td><td class="column-2"><p class="STier">S</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Mrs. Mother, Loaf Island</td>
+</tr>
+<tr class="row-13 odd">
+<td class="column-1">Authentic Triple Katana</td><td class="column-2"><p class="ATier">A</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Sea King, Legacy Island + Chests</td>
+</tr>
+<tr class="row-14 even">
+<td class="column-1">Demon Trident</td><td class="column-2"><p class="ATier">A</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Seasoned Fishman, Second Sea</td>
+</tr>
+<tr class="row-15 odd">
+<td class="column-1">Cookie Blade</td><td class="column-2"><p class="ATier">A</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Biscuit Man, Loaf Island</td>
+</tr>
+<tr class="row-16 even">
+<td class="column-1">Hunter Blade</td><td class="column-2"><p class="ATier">A</p></td><td class="column-3">Second Sea</td><td class="column-4">Objective</td>
+</tr>
+<tr class="row-17 odd">
+<td class="column-1">Metal Trident</td><td class="column-2"><p class="ATier">A</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Dough Master, Mirror World</td>
+</tr>
+<tr class="row-18 even">
+<td class="column-1">Longaevus</td><td class="column-2"><p class="ATier">A</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Ghost Ship, Second Sea</td>
+</tr>
+<tr class="row-19 odd">
+<td class="column-1">Barbaric Axe</td><td class="column-2"><p class="BTier">B</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Barbaric, Second Sea</td>
+</tr>
+<tr class="row-20 even">
+<td class="column-1">Gold Spear</td><td class="column-2"><p class="BTier">B</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Dory, Second Sea</td>
+</tr>
+<tr class="row-21 odd">
+<td class="column-1">Triple Katana</td><td class="column-2"><p class="BTier">B</p></td><td class="column-3">First Sea</td><td class="column-4">NPC, Rocks Island</td>
+</tr>
+<tr class="row-22 even">
+<td class="column-1">Saber</td><td class="column-2"><p class="BTier">B</p></td><td class="column-3">First Sea</td><td class="column-4">Boss Expert Swordsman, Stone Arena</td>
+</tr>
+<tr class="row-23 odd">
+<td class="column-1">Mom Blade</td><td class="column-2"><p class="BTier">B</p></td><td class="column-3">First Sea</td><td class="column-4">Boss Monster, Zombie Island</td>
+</tr>
+<tr class="row-24 even">
+<td class="column-1">Hell Sword</td><td class="column-2"><p class="BTier">B</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss King Samurai, Floresco Town</td>
+</tr>
+<tr class="row-25 odd">
+<td class="column-1">Authentic Mace</td><td class="column-2"><p class="BTier">B</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Dragon, Skull Island</td>
+</tr>
+<tr class="row-26 even">
+<td class="column-1">Sunken Blade</td><td class="column-2"><p class="BTier">B</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Sunken Vessel, Loaf Island</td>
+</tr>
+<tr class="row-27 odd">
+<td class="column-1">Xmas Blade</td><td class="column-2"><p class="BTier">B</p></td><td class="column-3">Event</td><td class="column-4">Christmas Event, Boss Santa, Stone Arena</td>
+</tr>
+<tr class="row-28 even">
+<td class="column-1">Pumpkin Smasher</td><td class="column-2"><p class="BTier">B</p></td><td class="column-3">Event</td><td class="column-4">Halloween Event, Halloween Boss or NPC</td>
+</tr>
+<tr class="row-29 odd">
+<td class="column-1">Pole</td><td class="column-2"><p class="CTier">C</p></td><td class="column-3">First Sea</td><td class="column-4">Boss Rumble Man, Sky Island</td>
+</tr>
+<tr class="row-30 even">
+<td class="column-1">Bisento</td><td class="column-2"><p class="CTier">C</p></td><td class="column-3">First Sea</td><td class="column-4">Boss Quake Woman, War Island</td>
+</tr>
+<tr class="row-31 odd">
+<td class="column-1">Shark Blade</td><td class="column-2"><p class="DTier">D</p></td><td class="column-3">First Sea</td><td class="column-4">Boss Shark Man, Shark Island</td>
+</tr>
+<tr class="row-32 even">
+<td class="column-1">Pipe</td><td class="column-2"><p class="DTier">D</p></td><td class="column-3">First Sea</td><td class="column-4">NPC, Bubble Island</td>
+</tr>
+<tr class="row-33 odd">
+<td class="column-1">Mini Mace</td><td class="column-2"><p class="DTier">D</p></td><td class="column-3">First Sea</td><td class="column-4">NPC, War Island</td>
+</tr>
+<tr class="row-34 even">
+<td class="column-1">Anubis Axe</td><td class="column-2"><p class="DTier">D</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Anubis, Dead Tundra</td>
+</tr>
+<tr class="row-35 odd">
+<td class="column-1">Adventure Knife</td><td class="column-2"><p class="DTier">D</p></td><td class="column-3">Second Sea</td><td class="column-4">Boss Flame User, Dead Tundra</td>
+</tr>
+<tr class="row-36 even">
+<td class="column-1">Tashi Blade</td><td class="column-2"><p class="FTier">F</p></td><td class="column-3">First Sea</td><td class="column-4">Boss Tashi, Starter Island</td>
+</tr>
+<tr class="row-37 odd">
+<td class="column-1">Jitter</td><td class="column-2"><p class="FTier">F</p></td><td class="column-3">First Sea</td><td class="column-4">Boss Smokey, Starter Island</td>
+</tr>
+<tr class="row-38 even">
+<td class="column-1">Katana</td><td class="column-2"><p class="FTier">F</p></td><td class="column-3">First Sea</td><td class="column-4">NPC, Starter Island</td>
+</tr>
+</tbody>
+                                    </thead>
+       
